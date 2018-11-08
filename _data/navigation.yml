@@ -1,14 +1,11 @@
 # Belongs at: /_data/navigation.yml
 
-- title: Home
+- title: Руководства
   url: /
 
-- title: Group of Things
-  url: /group/
+- title: JEM-2100
+  url: /jem2100/
   sublinks:
-    - title: Sub-item 1
-      url: /group/si1
-    - title: Sub-item 2
-      url: /group/si2
-    - title: Sub-item 3
-      url: /group/si3
+    - title: Ежедневная настройка
+      url: /jem2100/daily_alignment
+   
