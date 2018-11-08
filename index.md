@@ -2,4 +2,4 @@
 
 ## JEM-2100
 
-1. [Ежедневная настройка](/jem2100/daily_alignment/)
+1. [Ежедневная настройка](/jem2100/daily_alignment.md)
