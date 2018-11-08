@@ -1,11 +1,8 @@
 # Belongs at: /_data/navigation.yml
+docs_list_title: Руководства
 
-- title: Руководства
-  url: /
+docs:
 
-- title: JEM-2100
-  url: /jem2100/
-  sublinks:
-    - title: Ежедневная настройка
-      url: /jem2100/daily_alignment
+- title: Ежедневные настройки
+  url: /jem2100/daily_alignment
    
