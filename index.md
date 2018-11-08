@@ -5,6 +5,6 @@ layout: default
 
 ---
 
-## JEM-2100
+## JEM-2100 
 
 1. [Ежедневная настройка ](/jem2100/daily_alignment.md)
