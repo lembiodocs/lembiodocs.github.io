@@ -4,9 +4,11 @@
 <!-- Then we build the nav bar. -->
 <nav>
     <h2>{{ site.data.navigation.docs_list_title }}</h2>
-    <ul>
-        {% for item in site.data.navigation.docs %}
-		    <li><a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
-	{% endfor %}
-    </ul>
+    {% for item in site.data.navigation.toc %}
+        <h3>{{ item.title }}</h3>
+        <ul>		
+            {% for entry in item.subfolderitems %}
+		        <li><a href="{{ entry.url }}" alt="{{ entry.article }}">{{ entry.article }}</a></li>
+	        {% endfor %}
+        </ul>
 </nav>

@@ -1,7 +1,10 @@
 # Belongs at: /_data/navigation.yml
 docs_list_title: Руководства
-docs:
+toc:
 
-- title: Ежедневные настройки
-  url: /jem2100/daily_alignment
+    - title: JEM-2100
+      subfolderitems:
+        - article: Ежедневные настройки
+          url: /jem2100/daily_alignment
+ 
    
